@@ -1,0 +1,35 @@
+$kind: http-request
+name: "{{server}}/users/register"
+description: ""
+url: "{{server}}/users/register"
+method: POST
+body:
+  type: formdata
+  content:
+    - type: file
+      key: avatar
+      src:
+        - /C:/Users/shrey/OneDrive/Pictures/Screenshots/Screenshot (10).png
+      disabled: false
+    - type: file
+      key: coverImage
+      src:
+        - /C:/Users/shrey/OneDrive/Pictures/Screenshots/Screenshot (25).png
+      disabled: false
+    - type: text
+      key: fullName
+      value: barbaad topper 2
+      disabled: false
+    - type: text
+      key: email
+      value: bt2@fm.com
+      disabled: false
+    - type: text
+      key: password
+      value: "123456"
+      disabled: false
+    - type: text
+      key: username
+      value: sexyshree&karan
+      disabled: false
+order: 2000
